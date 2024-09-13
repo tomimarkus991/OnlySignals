@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OnlySignals</string>
+    <string name="title_activity_main">OnlySignals</string>
+    <string name="package_name">com.onlysignals.vite</string>
+    <string name="custom_url_scheme">com.onlysignals.vite</string>
+</resources>
