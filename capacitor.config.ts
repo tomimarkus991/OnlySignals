@@ -1,8 +1,8 @@
 import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "com.reactify.vite",
-  appName: "reactify-vite",
+  appId: "com.onlysignals.vite",
+  appName: "OnlySignals",
   webDir: "dist",
   server: {
     androidScheme: "https",

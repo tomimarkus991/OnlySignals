@@ -1,5 +1,5 @@
 {
-  "name": "reactify-vite",
+  "name": "onesignal-helper",
   "private": true,
   "version": "0.0.1",
   "module": "src/main.tsx",
@@ -14,7 +14,9 @@
     "coverage": "vitest run --coverage",
     "android:open": "npx cap open android",
     "android:run": "npx cap run android",
-    "sync": "npx cap sync"
+    "sync": "npx cap sync",
+    "build:app": "npm run build && npx cap sync",
+    "android:run:tomi": "ionic cap run android --target 9a6d1192"
   },
   "dependencies": {
     "@capacitor/android": "^5.6.0",

@@ -28,9 +28,9 @@ export default defineConfig({
       ],
       manifest: {
         start_url: ".",
-        name: "Reactify",
-        short_name: "Reactify",
-        description: "Boilerplate to get started fast",
+        name: "OnlySignals",
+        short_name: "OnlySignals",
+        description: "Get OneSignal notifications in your app",
         theme_color: "#282c31",
         background_color: "#282c31",
         orientation: "portrait",
