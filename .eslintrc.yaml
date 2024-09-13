@@ -1,2 +1,6 @@
 extends:
   - eslint-config-redlotus-react/dist/main
+
+# ignore public/OneSignalSDKWorker.js
+ignorePatterns:
+  - public/OneSignalSDKWorker.js
