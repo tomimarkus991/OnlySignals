@@ -1,0 +1,7 @@
+{
+  "name": "OnlySignals",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
