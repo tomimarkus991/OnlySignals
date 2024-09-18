@@ -1,4 +1,4 @@
-package com.onlysignals.vite;
+package com.onlysignals.www;
 
 import com.getcapacitor.BridgeActivity;
 
