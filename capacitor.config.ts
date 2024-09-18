@@ -1,7 +1,7 @@
 import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "com.onlysignals.vite",
+  appId: "com.onlysignals.www",
   appName: "OnlySignals",
   webDir: "dist",
   server: {
