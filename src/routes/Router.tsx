@@ -21,6 +21,10 @@ const useThemeUtils = () => {
 
 const OneSignalInit = () => {
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      return;
+    }
+
     OneSignal.initialize("230811cb-f2d5-4b0e-9c4d-d33b31389924");
 
     OneSignal.Notifications.requestPermission(true);
