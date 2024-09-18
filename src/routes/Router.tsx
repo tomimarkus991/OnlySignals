@@ -1,3 +1,4 @@
+import OneSignal from "onesignal-cordova-plugin";
 import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -18,8 +19,19 @@ const useThemeUtils = () => {
   }, []);
 };
 
+const OneSignalInit = () => {
+  useEffect(() => {
+    OneSignal.initialize("230811cb-f2d5-4b0e-9c4d-d33b31389924");
+
+    OneSignal.Notifications.requestPermission(true);
+  }, []);
+};
+
 export const Router = () => {
   useThemeUtils();
+
+  OneSignalInit();
+
   return (
     <Routes>
       {routes.map(route => (
